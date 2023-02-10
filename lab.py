@@ -16,7 +16,7 @@ with open('nums.txt') as file:
     a = file.readline().split()
 for i in a:
     h = str(i)
-    if h.isdigit() and int(h) > 1:
+    if h.isdigit() and int(h) >= 1:
         if int(h[0]) % 2 != 0 and int(h) % 2 == 0:
             c.append(h)
 for i in c:
