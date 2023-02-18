@@ -19,6 +19,7 @@ with open('nums.txt') as file:
     a = file.read(buffer_len)
     if not a:
         print('\n Файл в директории проекта пустой')
+        exit()
     while a:
         while '0' <= a <= '9':
             if '0' <= a <= '9':
