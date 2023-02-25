@@ -3,7 +3,7 @@ max_buffer_len = 100
 buffer_len = 1
 work_buffer = ''
 work_buffer_len = buffer_len
-num1 = {1: 'один', 2: 'два', 3: 'три', 4: 'четыре', 5: 'пять',
+num1 = {0: 'ноль', 1: 'один', 2: 'два', 3: 'три', 4: 'четыре', 5: 'пять',
         6: 'шесть', 7: 'семь', 8: 'восемь', 9: 'девять'}
 k = False
 with open('nums.txt') as file:
